@@ -30,7 +30,7 @@ A detailed analysis of pizza sales using **Power BI dashboards** backed by **MyS
 ## Tech Stack
 - **Power BI**: Data visualization and dashboard development
 - **MySQL**: Backend database for querying and validation
-- **Excel** (optional): Intermediate data prep
+- **Excel** (optional): Initial data preparation
 
 ## Files Included
 - `Sales_Trend.png`: Sales Summary Dashboard
