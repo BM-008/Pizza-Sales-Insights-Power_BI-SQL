@@ -2,6 +2,14 @@
 
 A detailed analysis of pizza sales using **Power BI dashboards** backed by **MySQL data validation**. It visualizes key performance metrics, sales patterns and top/bottom performers across pizza types, categories and sizes.
 
+## Sample Screenshots
+
+### Sales Summary
+![Sales Summary](./Sales_Trend.png)
+
+### Best/Worst Sellers
+![Best Sellers](./Best_Worst_Analysis.png)
+
 ## Dashboards Overview
 
 ### **Sales_Trend Dashboard**
@@ -29,11 +37,3 @@ A detailed analysis of pizza sales using **Power BI dashboards** backed by **MyS
 - `Best_Worst_Analysis.png`: Best/Worst Sellers Dashboard
 - `.xlsx` file: Excel file of Dataset
 - `.sql` script: MySQL queries used for validation
-
-## Sample Screenshots
-
-### Sales Summary
-![Sales Summary](./Sales_Trend.png)
-
-### Best/Worst Sellers
-![Best Sellers](./Best_Worst_Analysis.png)
