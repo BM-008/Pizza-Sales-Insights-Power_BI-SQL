@@ -46,7 +46,7 @@ select pizza_size, round(sum(total_price)*100/(select sum(total_price) from pizz
 from pizza_sales 
 group by pizza_size;
 
-     #%AGE_OF_SALES_BY_PIZZA_SIZE_OF_QUARTER1
+#%AGE_OF_SALES_BY_PIZZA_SIZE_OF_QUARTER1
 select pizza_size, round(sum(total_price)*100/(select sum(total_price) from pizza_sales where quarter(str_to_date(order_date,'%Y-%m-%d'))=1),2) as percentage_sales 
 from pizza_sales 
 where quarter(str_to_date(order_date,'%Y-%m-%d'))=1 
